@@ -8,9 +8,9 @@ const Login = () => {
 
     
 
-    const handleSubmit = (e) => {
+    /* const handleSubmit = (e) => {
         e.preventDefault()
-    }
+    } */
 
 
     return (
