@@ -8,13 +8,13 @@ import { MdAddLocationAlt } from "react-icons/md";
 const Navigation = () => {
     const { currentUser, setCurrentUser } = useContext(UserContext);
 
-    useEffect(() => {
+    /* useEffect(() => {
         const userStored = localStorage.getItem('currentUser')
         //console.log({userStored})
         if (userStored) {
             setCurrentUser(JSON.parse(userStored))
         }
-    }, [])
+    }, []) */
 
     const handleSignOut = () => {
         setCurrentUser(null);
